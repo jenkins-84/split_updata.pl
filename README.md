@@ -1,4 +1,12 @@
-split_updata.pl
+splitupdate (formerly split_updata.pl)
 ===============
 
-Improve split_updata.pl for Huawei phones
+Improved tool for splitting UPDATE.APP for Huawei phones
+
+To extract execute:
+```
+chmod +x splitupdate
+./splitupdate UPDATE.APP
+```
+
+The img files will be extracted in the /output/ folder.
